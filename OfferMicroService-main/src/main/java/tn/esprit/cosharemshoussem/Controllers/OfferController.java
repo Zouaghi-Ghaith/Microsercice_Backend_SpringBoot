@@ -18,9 +18,9 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "*")
-public class    OfferController {
+public class OfferController {
     private String admin="hello ,i'm admin";
-    private String user="hello ,i'm user";
+    private String user="hello ,i'm user"; 
 
     @Autowired
     private OfferService offerService;
