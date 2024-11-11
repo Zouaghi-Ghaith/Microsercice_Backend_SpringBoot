@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy the Spring Boot application JAR file into the container
 COPY target/ServerEureka-0.0.1-SNAPSHOT.jar app.jar
-
+ 
 # Expose the port that the application will run on
 EXPOSE 8080
 
