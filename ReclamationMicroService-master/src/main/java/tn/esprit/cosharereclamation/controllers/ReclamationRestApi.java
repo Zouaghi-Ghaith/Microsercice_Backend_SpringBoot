@@ -18,7 +18,7 @@ import java.util.List;
 
 public class ReclamationRestApi {
 
-    @Autowired
+    @Autowired 
     private ReclamationService reclamationService;
 
     private String admin="hello , im admin";
